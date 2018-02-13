@@ -1,0 +1,7 @@
+<!-- <a href="{{site1}}">{{site1}}</a>
+<a href="{{site2}}">{{site2}}</a>
+<a href="{{site3}}">{{site3}}</a>
+<a href="{{site4}}">{{site4}}</a>
+
+변수를 입력할 때에는 항상 {{}}로 감싸야 한다. -->
+<a *ngFor="let site of siteList" href="{{site}}"> {{site}} </a>
